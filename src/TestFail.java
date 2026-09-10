@@ -1,5 +1,7 @@
-public class testfail {
-    // Fails naming convention (lowercase class name)
-    // Fails compile (missing semicolon)
-    int x = 10
+public class TestFail {
+    private int number = 10;
+
+    public int getNumber() {
+        return number;
+    }
 }
