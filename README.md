@@ -1,3 +1,7 @@
-# Software Engineering Project Starter Code
+# Compute Engine
+The compute engine will work towards prime factorization of a certain input n. Input n will be continuously divided by prime candidates of 2 up to the square root of input n to decompose input n into its prime numbers.
+For example:
+N = 84
+Output = 2, 2, 3, 7 (2 * 2 * 3 * 7)
 
-This repo will start you off with an initial configuration that you'll modify as part of Checkpoint 1. As part of the modifications, you'll eventually delete the contents of this README and replace it with documentation for your project.
+
