@@ -1,4 +1,4 @@
-package project.api.ConceptualAPI;
+package project.api.conceptualapi;
 import java.util.ArrayList;
 
 public class ComputeWorkerPrototype implements ComputeWorkerAPI {

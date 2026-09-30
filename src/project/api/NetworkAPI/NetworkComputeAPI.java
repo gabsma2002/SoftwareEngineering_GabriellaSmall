@@ -1,4 +1,4 @@
-package project.api.NetworkAPI;
+package project.api.networkapi;
 
 public interface NetworkComputeAPI {
     String computeJob(UserComputeRequest request);
