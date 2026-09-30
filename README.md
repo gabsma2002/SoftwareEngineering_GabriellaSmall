@@ -1,3 +1,13 @@
-# Software Engineering Project Starter Code
+# Gabriella's Compute Engine
+**The compute engine will work towards prime factorization of a certain input n.** N will be continuously divided by prime candidates of 2 up to the square root of N to decompose N into its prime numbers.
 
-This repo will start you off with an initial configuration that you'll modify as part of Checkpoint 1. As part of the modifications, you'll eventually delete the contents of this README and replace it with documentation for your project.
+***An example of how this compute engine will function:***
+N = 84
+Output = 2, 2, 3, 7 (2 * 2 * 3 * 7)
+
+## Systems Design Diagram
+![System Design Diagram](designimage.png)
+
+
+
+
