@@ -1,9 +1,9 @@
-package project.api.ProcessAPI;
+package project.api.processapi;
 
 import java.util.ArrayList;
 
 public class DataStoragePrototype implements DataStorageAPI {
-    
+
     public ArrayList<Integer> readInput(String input) {
         //returns numbers as an arraylist of integers
         return new ArrayList<>();
