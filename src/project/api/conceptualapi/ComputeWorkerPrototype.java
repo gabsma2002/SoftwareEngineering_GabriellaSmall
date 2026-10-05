@@ -1,6 +1,8 @@
 package project.api.conceptualapi;
 import java.util.ArrayList;
 
+import project.annotations.ConceptualAPI;
+@ConceptualAPI 
 public class ComputeWorkerPrototype implements ComputeWorkerAPI {
     @Override 
     public ArrayList<Integer> computeFactors(int number) {
