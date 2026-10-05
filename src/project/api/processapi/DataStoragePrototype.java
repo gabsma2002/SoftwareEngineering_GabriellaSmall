@@ -2,6 +2,8 @@ package project.api.processapi;
 
 import java.util.ArrayList;
 
+import project.annotations.ProcessAPI;
+@ProcessAPI 
 public class DataStoragePrototype implements DataStorageAPI {
 
     public ArrayList<Integer> readInput(String input) {
@@ -13,10 +15,6 @@ public class DataStoragePrototype implements DataStorageAPI {
         //writes results to destination
         System.out.println("Writing output to " + destination + ": " + result);
     }
-
-
-
-
 
 
     
