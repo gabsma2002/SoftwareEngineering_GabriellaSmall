@@ -1,8 +1,7 @@
 package project.api.processapi;
 import java.util.ArrayList;
 
-import project.annotations.ProcessAPI;
-@ProcessAPI 
+
 public interface DataStorageAPI {
     //read user input of positive integers
     ArrayList<Integer> readInput(String input);
@@ -11,4 +10,3 @@ public interface DataStorageAPI {
     void writeOutput(String destination, String result);
     
 }
-
