@@ -1,27 +1,24 @@
 package project.api.processapi;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import project.annotations.ProcessAPI;
 import project.annotations.ProcessAPIPrototype;
-@ProcessAPI 
-public class DataStoragePrototype implements DataStorageAPI {
+public class DataStoragePrototype {
     @ProcessAPIPrototype
     public void prototype(DataStorageAPI api) {
-        ArrayList<Integer> input = api.readInput("84");
-        api.writeOutput("result", input.toString());
+        //readinput
+        InputData inputData = api.readInput(new InputConfig() {});
+        System.out.println(inputData.getNumbers());
+        //writeoutput
+        api.writeOutput(new OutputConfig() {}, new OutputData()  {
+            @Override 
+            public List<String> getResults() {
+                return new ArrayList<>();
+            }
+        });
+       
     }
-
-    public ArrayList<Integer> readInput(String input) {
-        //returns numbers as an arraylist of integers
-        return new ArrayList<>();
-    }
-
-    public void writeOutput(String destination, String result) {
-        //writes results to destination
-        System.out.println("Writing output to " + destination + ": " + result);
-    }
-
 
     
 }
